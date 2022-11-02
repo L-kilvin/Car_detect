@@ -1,0 +1,10 @@
+
+path: /home/l/data/coco # dataset root dir
+train: train/images  # train images (relative to 'path') 128 images
+val: val/images  # val images (relative to 'path') 128 images
+test: test/images # test images (optional)
+nc: 15
+# Classes
+names:
+  ['轿车','suv','大客车','大货车','小货车','面包车','专业作业车','微型车','自行车','电动/摩托车','人力三轮车','电动/摩托三轮车','模糊或变形严重车辆','其他','其他非机动车']
+
